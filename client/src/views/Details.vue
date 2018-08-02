@@ -20,7 +20,7 @@
 
         <div id="centerbody" class="col s12 m8 l6">
 
-          <Caurlah/>
+          <Content/>
         </div>
 
 
@@ -34,7 +34,7 @@
 
 <script>
 // import HelloWorld from '@/components/HelloWorld.vue'
-import Caurlah from '@/components/caurlah.vue'
+import Content from '@/components/Content.vue'
 import Navbar from '@/components/navbar.vue'
 import LeftBox from '@/components/LeftBox.vue'
 
@@ -47,7 +47,7 @@ export default {
   name: 'details',
   components: {
     // HelloWorld,
-    Caurlah,
+    Content,
     Navbar,
     LeftBox,
  

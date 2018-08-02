@@ -23,7 +23,9 @@ export default new Router({
       path: '/content/:id',
       name: 'content',
       component: Details
-    }
+    },
+    
+
   ],
   mode: 'history'
 })
