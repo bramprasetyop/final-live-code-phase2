@@ -91,7 +91,7 @@
 
               <div class="modal-header">
 
-                <textarea v-bind="content" id="textarea1" placeholder=" Content..." class="materialize-textarea"></textarea>
+                <textarea v-model="article" id="textarea1" placeholder=" Content..." class="materialize-textarea"></textarea>
 
               </div>
 
